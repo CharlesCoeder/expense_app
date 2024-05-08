@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:expense_tracker/models/expense.dart';
 
 class NewExpense extends StatefulWidget {
+  const NewExpense({super.key});
+
   @override
   State<NewExpense> createState() {
     return _NewExpenseState();
